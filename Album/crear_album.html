@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+        <meta charset="UTF-8" />
+        <title>Crear Album</title>
+
+    </head>
+    <body>
+
+        <form action="" method="POST">
+            Titulo: <input type="text" name="titulo" /> <br>
+            Descripción: <br> <textarea cols="50" rows="4" name="descripcion"></textarea> <br>
+            <!-- añadir dibujos (del usuario) -->
+            <input type="submit" value="Crear Album" />
+        </form>
+        <script src="script.js"></script>
+
+    </body>
+</html>
+
+<!--
+
+    CREATE TABLE `album` (
+    `id_album` int(11) NOT NULL,
+    `id_usuario` int(11) NOT NULL,
+    `titulo` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+    `descripcion` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+    `fecha` datetime NOT NULL,
+    `activo` tinyint(1) NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-->

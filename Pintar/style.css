@@ -1,0 +1,180 @@
+@charset 'UTF-8';
+
+@font-face
+{
+	font-family: pixeles;
+	src: url('../css/silkscreen/slkscr.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    /*
+	margin: 0px;
+    padding: 0px;
+    */
+	background: #323232;
+	font-family: pixeles;
+	font-size: 11px;
+	font-weight: 300;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+	#encabezado {
+
+		align-content: center;
+		text-align: center;
+
+	}	
+
+	.boton {
+
+		background: none;
+		color: #FFFFFF;
+		width: 142px;
+		height: 35px;
+		border: 1px solid #59c2ff;
+		font-family: pixeles;
+		font-size: 11px;
+		transition: .6s;
+		overflow: hidden;
+
+	}
+	.boton:focus {
+		outline: none;
+	}
+	.boton:hover {
+		background: #2DAAE4;
+		cursor: pointer;
+	}
+
+	.textfield {
+
+		background: none;
+		color: #FFFFFF;
+		width: 280px;
+		height: 25px;
+		border: 1px solid #59c2ff;
+		font-family: pixeles;
+		transition: .6s;
+		overflow: hidden;
+
+	}
+	.textfield:focus {
+		outline: none;
+	}
+	.textfield:hover {
+		border: 1px solid #F2600B;
+	}
+
+#colores {
+
+    width: 45px;
+
+}
+
+#grosor {
+
+    width: 50px;
+
+}
+
+.wrapper {
+
+    text-align: center;
+
+}
+
+.wrapper #encabezado {
+
+    position: relative;
+    z-index: 3;
+    padding: 0px 0px;
+
+}
+
+.wrapper #opciones {
+
+    z-index: 2;
+    position: relative;
+    
+}
+
+.wrapper #lienzos {
+
+    padding: 50px 0px;
+    position: sticky;
+
+}
+
+canvas {
+
+    border: 1px solid black;
+
+}
+
+.wrapper #lienzos #lienzo {
+
+    z-index: 0;
+    position: fixed;
+    /*top: 335px;*/
+    top: 75px;
+    left: 0;
+    bottom: 15px;
+    right: 0;
+    margin: auto;
+
+}
+
+.wrapper #lienzos #capaGrid {
+
+    z-index: 1;
+    position: fixed;
+    top: 75px;
+    left: 0;
+    bottom: 15px;
+    right: 0;
+    margin: auto;
+
+}
+
+#modo {
+
+    /*padding: 0px 40px;*/
+
+}
+
+#archivos {
+
+    padding: 0px 20px;
+
+}
+
+a {
+    background: #69c;
+    color: #fff;
+    padding: 3px 7px;
+    cursor: pointer;
+}
+
+.botonesOp {
+
+    text-align: center;
+    border: thick;
+    border-color: blue;
+
+}
+
+.botonesOp:active {
+
+    background-color: red;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+        <meta charset="UTF-8" />
+        <title>Publicar</title>
+
+    </head>
+    <body>
+
+        <form action="" method="POST">
+            <textarea cols="50" rows="4" name="descripcion">Escribe algo...</textarea> <br>
+            <!-- añadir dibujos (del usuario) -->
+            <input type="submit" value="Publicar" />
+        </form>
+        <script src="script.js"></script>
+
+    </body>
+</html>
+
+<!--
+
+    CREATE TABLE `post` (
+    `id_post` int(11) NOT NULL,
+    `id_usuario` int(11) NOT NULL,
+    `texto` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+    `likes` int(11) DEFAULT 0,
+    `id_dibujo` int(11) DEFAULT NULL,
+    `fecha` datetime DEFAULT NULL,
+    `activo` tinyint(1) NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-->

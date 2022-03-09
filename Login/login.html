@@ -1,0 +1,34 @@
+<html>
+    <head>
+
+        <meta charset="UTF-8" />
+        <title>Iniciar Sesión</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    </head>
+    <body>
+
+        <script>
+            
+            function redireccionar() {
+
+                window.location.href = "../Registro_usuario/registro_usuario.html";
+
+            }
+
+        </script>
+
+        <h1>XELSHER</h1>
+        <br>
+
+        <div id="encabezado">
+            <form action="conectar.php" method="POST">
+                E-Mail: <input type="email" name="email" class="textfield" /> <br><br>
+                Contraseña: <input type="password" name="contra" class="textfield" /> <br><br>
+                <input type="submit" value="Iniciar Sesión" class="boton" /> 
+                <input type="button" value="Registrarse" onclick="redireccionar()" class="boton"/>
+            </form>
+        </div>
+
+    </body>
+</html>

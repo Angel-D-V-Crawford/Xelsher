@@ -1,0 +1,40 @@
+<html>
+    <head>
+
+        <meta charset="UTF-8" />
+        <title>Registro de Usuario</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    </head>
+    <body>
+
+        <script>
+            
+            function redireccionar() {
+        
+                window.location.href = "../Login/login.html";
+        
+            }
+        
+        </script>
+
+        <h1>XELSHER</h1>
+        <br>
+
+        <form action="registrar.php" method="POST" enctype="multipart/form-data">
+            E-Mail: <input type="email" name="email" class="textfield" /> <br>
+            Nombre: <input type="text" name="nombre" class="textfield" /> <br>
+            Apellidos: <input type="text" name="apellidos" class="textfield" /> <br>
+            Usuario: <input type="text" name="usuario" class="textfield" /> <br>
+            Contraseña: <input type="password" name="contra" class="textfield" /> <br>
+            Género: <input type="radio" name="genero" value="Hombre" /> Hombre   <input type="radio" name="genero" value="Mujer" /> Mujer <br>
+            País: <input type="text" name="pais" class="textfield" /> <br>
+            Imagen: <input type="file" id="archivos" name="file_imagen" accept="image/*" onchange="abrirArchivo();" />  Max: 16 MB <br><br>
+            <img id="imagen" width='200' src="iconoPerfil.jpg" /> <br><br><br>
+            <input type="submit" value="Registrar" class="boton" /> 
+            <input type="button" value="Volver" class="boton" onclick="redireccionar()"/>
+        </form>
+        <script src="script.js"></script>
+
+    </body>
+</html>
