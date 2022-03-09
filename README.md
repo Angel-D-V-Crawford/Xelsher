@@ -2,8 +2,8 @@
 
 Used: PHP, MySQL, JavaScript, HTML5, CSS.
 
-A small social network web application that I made as a project in college. There's some aspects that are improvable, but at the moment I was very happy and proud with the result.
-The concept is that anyone can make small pixelarts and share them with the world. It's like a really small DeviantArt inspired social network.
+A small social network web application that I made as a project in college. There's some aspects that are improvable, but at the moment I was very happy and proud with the result. <br/>
+The concept is that anyone can make small pixelarts and share them with the world. It's like a really small DeviantArt inspired social network. <br/>
 Unfortunately the project is only available in spanish.
 
 ## Instructions
